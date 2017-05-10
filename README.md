@@ -28,7 +28,7 @@ Download and uncompress the dataset from [Google Drive](https://drive.google.com
 #### Part a : Hive (Further output in Parta file)
 
 1. Create a schema for the dataset in Hive. I have created a concrete structure describing all the required fields.   
-![output1](outpu1.jpg)
+![output1](output1.jpg)
 
 2. Find the number of 200 status code in the response in the month of August. 
 
@@ -46,7 +46,7 @@ To solve each of the tasks below, we would need to write your own mapper and red
 
 1. Enumerate all [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) and give counts of each 
 
-  **Output sample:**
+  **Output sample:**  
   200 - 9301566   
   302 - 219210  
   304 - 800316    
