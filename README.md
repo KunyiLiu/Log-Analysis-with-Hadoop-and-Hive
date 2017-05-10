@@ -46,13 +46,12 @@ To solve each of the tasks below, we would need to write your own mapper and red
 
 1. Enumerate all [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) and give counts of each 
 
-  ** Output sample: **  
-  200 - 930156
-  302 - 219210
-  304 - 800316  
-  400 - 45  
+  **Output sample:**
+  200 - 9301566   
+  302 - 219210  
+  304 - 800316    
+  400 - 45    
   
-
 2. Find the total bandwidth that was sent by the Nasa webserver in the month of July 1995. 
 
  To calculate total bandwidth add all the response bytes sent by NASA webserver. NASA webservers have domain name ending with  nasa.gov.  Write a MapReduce job that will calculate total bandwidth and print it on STDOUT.
