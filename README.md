@@ -25,31 +25,29 @@ The logs follow the standard [Apache log](https://httpd.apache.org/docs/2.4/logs
 
 Download and uncompress the dataset from [Google Drive](https://drive.google.com/open?id=0B6qnKGQsJnFfWG02N2loUVluck0). Go through the dataset to get a good idea of all the data and fields present. 
 
-#### Part a : Hive 
+#### Part a : Hive (Further output in Parta file)
 
-1. Create a schema for the dataset in Hive. I have created a concrete structure describing all the required fields. 
+1. Create a schema for the dataset in Hive. I have created a concrete structure describing all the required fields.   
 ![output1](outpu1.jpg)
 
 2. Find the number of 200 status code in the response in the month of August. 
 
 3. Find the number of unique source IPs that have made requests to the NASA server for the month of September. 
 
-4. Which was the most requested URL in the year 1995. 
+4. Which was the most requested URL in the year 1995.  
 ![output4](output4.jpg)
 
-5. Make a histogram depicting the number of requests made in a day for every day in the month of October. 
+5. Make a histogram depicting the number of requests made in a day for every day in the month of October.   
 ![output5](output5.jpg)
-* Further output in Parta file.
 
-#### Part b : MapReduce (50 points)
+#### Part b : MapReduce (Further output in Partb file)
 
 To solve each of the tasks below, we would need to write your own mapper and reducer.
-* Further output in Partb file.
 
 1. Enumerate all [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) and give counts of each 
 
-  **Output sample:**  
-  200 - 9301566
+  ** Output sample: **  
+  200 - 930156
   302 - 219210
   304 - 800316  
   400 - 45  
