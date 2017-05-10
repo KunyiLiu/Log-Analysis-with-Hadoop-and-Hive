@@ -2,18 +2,19 @@
 We saw and learned how to work with actual big data. In this assignment, we wrote our own MapReduce programs to perform more sophisticated tasks. Further we have created our own Hive database given the dataset in raw form and run few queries on it.   
 
 ## DataSet - Nasa Server Logs
-* File Name - server-logs.gz  
-* Size - The total size of the dataset is roughly 1GB after uncompressing the .gz file.  
-* Description - The given data set contains Apache Logs gathered by NASA's server in the months of July-October, 1995.  
+** File Name - server-logs.gz  
+** Size - The total size of the dataset is roughly 1GB after uncompressing the .gz file.  
+** Description - The given data set contains Apache Logs gathered by NASA's server in the months of July-October, 1995.  
 The logs follow the standard [Apache log](https://httpd.apache.org/docs/2.4/logs.html#accesslog) format whereby each line denotes one request.
-Source IP
-Timestamp
-HTTP Method
-Request URL
-HTTP Protocol
-Status Code
-Response Bytes
+* Source IP  
+* Timestamp
+* HTTP Method
+* Request URL
+* HTTP Protocol
+* Status Code
+* Response Bytes
 > 129.188.154.200 - - [01/Jul/1995:00:03:14 -0400] "GET /images/launchpalms-small.gif HTTP/1.0" 200 11473
+
 Download and uncompress the dataset from Google Drive : https://drive.google.com/file/d/0B6qnKGQsJnFfWG02N2loUVluck0/view
  
 Part a : Hive (50 points): https://github.com/prakhar1989/csds-material/blob/assignment2/README.md#part-a--hive-50-points
